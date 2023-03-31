@@ -13,14 +13,14 @@ using Notion.Client;
 
 namespace NotionChartProgram
 {
-    public partial class Form1 : Form
+    public partial class NotionAPI : Form
     {
         string key = "";
         string databaseid = "";
 
         NotionClient client;
 
-        public Form1()
+        public NotionAPI()
         {
             InitializeComponent();
         }
@@ -136,6 +136,10 @@ namespace NotionChartProgram
             public DateTime Start { get; set; }
             public DateTime? End { get; set; }
             public string TimeZone { get; set; }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
         }
     }
 }
