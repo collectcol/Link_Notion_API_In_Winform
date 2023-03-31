@@ -15,8 +15,8 @@ namespace NotionChartProgram
 {
     public partial class Form1 : Form
     {
-        string key = "secret_XtuB7tFvfkD1w1g1rwNFUOj8maAWTCi3pb1oDxytsWM";
-        string databaseid = "0a4ba711e2f3463189672d416c541369";
+        string key = "";
+        string databaseid = "";
 
         NotionClient client;
 
